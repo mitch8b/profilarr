@@ -17,7 +17,7 @@ tags:
 - x264
 - h264
 upgradesAllowed: true
-minCustomFormatScore: 20000
+minCustomFormatScore: 15000
 upgradeUntilScore: 888888
 minScoreIncrement: 1
 custom_formats:
