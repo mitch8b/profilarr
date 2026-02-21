@@ -34,6 +34,7 @@ jobs:
           git merge upstream/stable --allow-unrelated-histories -X theirs --no-edit || true
           # Restore your own workflow files after merge
           git checkout HEAD -- .github/workflows
+          git checkout HEAD -- "profiles/1080p Balanced.yml"
 
       - name: Commit merge (if needed)
         run: |
